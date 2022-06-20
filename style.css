@@ -1,0 +1,108 @@
+body {
+    background: linear-gradient(125deg, rgb(212, 8, 8), rgba(112, 0, 0, 0.637));
+}
+
+h1 {
+    text-align: center;
+    margin-top: 80px;
+    font-family: Stencil Std, fantasy;
+    color: white;
+}
+
+img {
+    width: 100px;
+    border-radius: 30%;
+    margin-left: 720px;
+}
+
+.box {
+    background-color: #ffffff;
+    width: 550px;
+    height: 150px;
+    padding: 50px 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.2);
+    position: fixed;
+}
+
+input {
+    padding: 0 40px 0 20px;
+    position: relative;
+    background-color: #f5f5f5;
+    border: none;
+    outline: none;
+    border-radius: 5px 5px 0 0;
+    height: 40px;
+}
+
+input,
+p {
+    font-family: "Roboto Mono", monospace;
+}
+
+#home {
+    width: 80px;
+    position: fixed;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-transform: uppercase;
+}
+
+section .link-container input,
+.format-container select {
+    padding: 0 40px 0 20px;
+    position: relative;
+    background-color: #f5f5f5;
+    border: none;
+    outline: none;
+    border-radius: 5px 5px 0 0;
+    height: 40px;
+    font-family: "Roboto Mono", monospace;
+    width: 250px;
+}
+
+section .button button {
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    color: #fff;
+    background-color: #ee4b4b;
+    letter-spacing: 1px;
+    cursor: pointer;
+    position: relative;
+    margin-left: 170px;
+    margin-top: 30px;
+}
+
+@media only screen and(max-width: 550px) {
+    section {
+        width: 350px;
+        height: 450px;
+    }
+    section .link-container,
+    .format-container,
+    .button {
+        width: 300px;
+    }
+}
+
+.format-container {
+    margin-top: 10px;
+    margin-left: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.video {
+    margin-top: 10px;
+    margin-left: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
